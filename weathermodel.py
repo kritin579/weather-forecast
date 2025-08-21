@@ -10,7 +10,6 @@ def quadratic_weather_model(hour):
     return round(temp, 2)
 
 
-# ✅ Test calls
-if _name_ == "_main_":
+# if _ _name_ _== "_ _main_ _":
     for h in [0, 6, 12, 18, 23]:
         print(f"At {h}:00, temperature = {quadratic_weather_model(h)}°C")
